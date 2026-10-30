@@ -1,6 +1,6 @@
 # بهینه‌سازی معیارهای فاصله‌ی رشته با یادگیری تقویتی (String Metric RL)
 
-[English Documentation](README.md) • [گزارش خطا و بازخورد](https://github.com/abbasi0abolfazl/string_metric_RL/issues)
+[English Documentation](README.md) • [گزارش خطا و بازخورد](https://github.com/abbasi0abolfazl/rl-string-editor/issues)
 
 یک فریم‌ورک پژوهش‌محور و مهندسی‌شده با **یادگیری تقویتی (Reinforcement Learning)** برای حل مسئله‌ی ویرایش هوشمند متن، تصحیح خطا و هم‌ترازسازی رشته‌ها در قالب **فرآیند تصمیم‌گیری مارکوف (MDP)**. عامل تقویتی یاد می‌گیرد با اجرای توالی بهینه‌ای از اعمال کاراکتری (`insert`, `delete`, `replace`, `keep`) رشته‌های نویزی یا نامنظم را با کمترین گام و بیشترین شباهت به رشته‌ی هدف تبدیل کند.
 
@@ -67,8 +67,8 @@
 
 ```bash
 # کلون مخزن
-git clone https://github.com/abbasi0abolfazl/string_metric_RL.git
-cd string_metric_RL
+git clone https://github.com/abbasi0abolfazl/rl-string-editor.git
+cd rl-string-editor
 
 # ساخت محیط مجازی و نصب پیش‌نیازها
 python3 -m venv .venv
@@ -86,7 +86,7 @@ python main.py
 ## 📂 ساختار مخزن
 
 ```
-string_metric_RL/
+rl-string-editor/
 ├── analiys.py                  # استخراج فیچرهای متنی و معیارهای فاصله
 ├── rl.py                       # محیط MDP و تعریف فضاها (AdvancedArabicTextEnv)
 ├── main.py                     # اسکریپت اصلی اجرای پایپ‌لاین آزمایش‌ها

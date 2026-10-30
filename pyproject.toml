@@ -3,7 +3,7 @@ requires = ["setuptools>=68.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "string-metric-rl"
+name = "rl-string-editor"
 version = "0.1.0"
 description = "Reinforcement Learning framework for string distance optimization and intelligent text editing"
 readme = "README.md"
