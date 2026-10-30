@@ -4,6 +4,8 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
+[🇮🇷 مستندات فارسی (Persian Documentation)](README.fa.md) • [Report Issues](https://github.com/abbasi0abolfazl/string_metric_RL/issues)
+
 An evidence-based Reinforcement Learning framework that formulates text editing, error correction, and string alignment as a **Markov Decision Process (MDP)**. The agent learns optimal sequences of character-level edits (`insert`, `delete`, `replace`, `keep`) to transform corrupted, noisy, or dialectal strings into canonical target forms while minimizing edit distance and step penalties.
 
 ---
