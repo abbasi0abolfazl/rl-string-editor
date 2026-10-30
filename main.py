@@ -6,6 +6,7 @@
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'arabic_rl_editor'))
 
 from analiys import analyze_your_texts, ArabicTextAnalyzer
 from rl import AdvancedArabicTextEnv, ExpertArabicEditor, EditAction
